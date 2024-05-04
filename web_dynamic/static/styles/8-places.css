@@ -99,3 +99,46 @@
 .user {
   margin-bottom: 1.5%;
 }
+
+.places .hidden {
+    content-visibility: hidden;
+}
+
+.places .reviews {
+    margin-top: 40px;
+}
+
+.places .reviews .review-title-show {
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.places .reviews h2 {
+    font-size: 16px;
+}
+
+.places .reviews ul {
+    list-style: none;
+    padding: 0;
+}
+
+.places .reviews li {
+    margin-bottom: 20px;
+}
+
+.places .reviews h3{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.places .reviews p{
+    font-size: 12px;
+    margin: 0;
+}
+
+.places .reviews .show-span {
+    cursor: pointer;
+    color: blue;
+}
